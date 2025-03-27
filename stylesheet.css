@@ -1,0 +1,285 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    /* border: 3px solid red; */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.container_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    /* border: 3px solid blue; */
+}
+.container_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    /* border: 3px solid blue; */
+    background-color: lightgrey;
+    gap: 5px;
+}
+.surge_protector_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid purple; */
+    width: 100%;
+    height: 100%;
+} .surge_protector_1.toggled {
+    background-color: yellow;
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid blue; */
+    width: 100%;
+    height: 100%;
+    gap: 150px;
+}
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid blue; */
+    width: 100%;
+    height: 100%;
+    gap: 150px;
+}
+/* img {
+    height: 80%;
+} */
+ .handling_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100px;
+    height: 130px;
+    background-color: lightgrey;
+ }
+.charge_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid orange; */
+    width: 100px;
+    height: 100px;
+    cursor: pointer; /*make it look clickable*/
+}
+.charge_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid orange; */
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.charge_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid orange; */
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.charge_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid orange; */
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.charge_5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid orange; */
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.charge_6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid orange; */
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.s1 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    /* border: 3px solid green; */
+    margin-left: -330px;
+    margin-top: -10px;
+} s1.toggled {
+    border: 0px;
+}
+.s2 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    /* border: 3px solid purple; */
+    margin-left: -105px;
+    margin-top: -10px;
+} s2.toggled {
+    border: 0px;
+}
+.s3 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    /* border: 3px solid yellow; */
+    margin-left: 120px;
+    margin-top: -10px;
+} s3.toggled {
+    border: 0px;
+}
+.four-rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    /* border: 3px solid orange; */
+}
+.s4 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    /* border: 3px solid blue; */
+    margin-left: 350px;
+    margin-top: -10px;
+}
+.s5 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    /* border: 3px solid magenta; */
+    margin-left: 585px;
+    margin-top: -10px;
+}
+.s6 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    /* border: 3px solid rgb(220, 159, 255); */
+    margin-left: 825px;
+    margin-top: -10px;
+}
+.OFF {
+    width: 35px;
+    height: 75px;
+    position: fixed;
+    border: 3px solid red;
+    margin-left: -710px;
+    margin-top: -10px;
+}
+.TV_1.OFF-BUTTON, .TV_2.OFF-BUTTON, .TV_3.OFF-BUTTON, .TV_4.OFF-BUTTON, .TV_5.OFF-BUTTON, .TV_6.OFF-BUTTON {
+    content-visibility: hidden;
+}
+.TV_1.ON, .TV_2.ON, .TV_3.ON, .TV_4.ON, .TV_5.ON, .TV_6.ON {
+    background-color: white;
+    /* border: 3px solid yellow; */
+    content-visibility: visible;
+}
+.TV_1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    border: 3px inset grey;
+    background-color: black;
+    content-visibility: hidden;
+    overflow: hidden;
+}
+.TV_2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    border: 3px inset grey;
+    background-color: black;
+    content-visibility: hidden;
+}
+.TV_3 {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 100%;
+    border: 3px inset grey;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    content-visibility: hidden;
+}
+.TV_4 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    border: 3px inset grey;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    content-visibility: hidden;
+}
+.TV_5 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    border: 3px inset grey;
+    background-color: black;
+    content-visibility: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.TV_6 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    border: 3px inset grey;
+    background-color: black;
+    content-visibility: hidden;
+    overflow: scroll;
+}
+/* @keyframes turn-the-tv-on {
+    0% {
+        background-color: black;
+        /* image: transparent; 
+    }
+    50% {
+        background-color: grey;
+    }
+    100% {
+        background-color: white;
+    }
+} */
