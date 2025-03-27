@@ -25,7 +25,8 @@ body {
     width: 30%;
     height: 100%;
     /* border: 3px solid blue; */
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
+    background-image: url("MEDIA/beige_carpet.jpg"); background-position: center; background-size: 100%;
     gap: 5px;
 }
 .surge_protector_1 {
@@ -69,6 +70,7 @@ body {
     width: 100px;
     height: 130px;
     background-color: lightgrey;
+    background-image: url("MEDIA/beige_carpet.jpg"); background-position: center; background-size: 200%; background-repeat: no-repeat;
  }
 .charge_1 {
     display: flex;

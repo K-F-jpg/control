@@ -63,7 +63,7 @@ $(document).ready(function(){
             $(this)
                 $(".s1").toggleClass("toggled")
                 $(".TV_1").toggleClass("ON")
-                $("#smile_1").attr('src', 'MEDIA/those-who-know.png')
+                $("#smile_1").attr('src', 'MEDIA/plug3.png')
           }
         });
       } );
@@ -82,7 +82,7 @@ $(document).ready(function(){
                     $("#without_clothes").attr('src', 'MEDIA/with-clothes.avif')
                     $("#washing")[0].play()
                 })
-                $("#smile_2").attr('src', 'MEDIA/those-who-know.png')
+                $("#smile_2").attr('src', 'MEDIA/plug3.png')
           }
         });
       } );
@@ -97,7 +97,7 @@ $(document).ready(function(){
             $(this)
                 $(".s3").toggleClass("toggled")
                 $(".TV_3").toggleClass("ON")
-                $("#smile_3").attr('src', 'MEDIA/those-who-know.png')
+                $("#smile_3").attr('src', 'MEDIA/plug3.png')
           }
         });
       } );
@@ -112,7 +112,7 @@ $(document).ready(function(){
             $(this)
                 $(".s4").toggleClass("toggled")
                 $(".TV_4").toggleClass("ON")
-                $("#smile_4").attr('src', 'MEDIA/those-who-know.png')
+                $("#smile_4").attr('src', 'MEDIA/plug3.png')
           }
         });
       } );
@@ -127,7 +127,7 @@ $(document).ready(function(){
             $(this)
                 $(".s5").toggleClass("toggled")
                 $(".TV_5").toggleClass("ON")
-                $("#smile_5").attr('src', 'MEDIA/those-who-know.png')
+                $("#smile_5").attr('src', 'MEDIA/plug3.png')
           }
         });
       } );
@@ -142,7 +142,7 @@ $(document).ready(function(){
             $(this)
                 $(".s6").toggleClass("toggled")
                 $(".TV_6").toggleClass("ON")
-                $("#smile_6").attr('src', 'MEDIA/those-who-know.png')
+                $("#smile_6").attr('src', 'MEDIA/plug3.png')
           }
         });
       } );
@@ -155,7 +155,7 @@ $(document).ready(function(){
           accept: ".draggable1, .draggable2, .draggable3, .draggable4, .draggable5, .draggable6",
           drop: function() {
             $(this)
-                $("#smile_1, #smile_2, #smile_3, #smile_4, #smile_5, #smile_6").attr('src', 'MEDIA/happy_face_test.svg')
+                $("#smile_1, #smile_2, #smile_3, #smile_4, #smile_5, #smile_6").attr('src', 'MEDIA/plug1.png')
           }
         });
       } );
