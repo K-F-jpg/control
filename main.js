@@ -19,6 +19,10 @@ $(document).ready(function(){
         $(".TV_1, .TV_2, .TV_3, .TV_4, .TV_5, .TV_6").toggleClass("OFF-BUTTON")
     })
 
+    $(".OFF").click(function(){
+      $("#tv_off")[0].play()
+    })
+
     $(".s1, .s2, .s3, .s4, .s5, .s6").click(function(){
         alert("plug stuff into me!")
     })
@@ -156,6 +160,21 @@ $(document).ready(function(){
           drop: function() {
             $(this)
                 $("#smile_1, #smile_2, #smile_3, #smile_4, #smile_5, #smile_6").attr('src', 'MEDIA/plug1.png')
+          }
+        });
+      } );
+
+      $( function() { //accepts charge_6
+        $(".draggable6").draggable(
+            {containment: ".container_left", snap: ".s6", snapMode: "inner"}
+        );
+        $(".dropped6").droppable({
+          accept: ".draggable6",
+          drop: function() {
+            $(this)
+                $(".s6").toggleClass("toggled")
+                $(".TV_6").toggleClass("ON")
+                $("#smile_6").attr('src', 'MEDIA/plug3.png')
           }
         });
       } );
